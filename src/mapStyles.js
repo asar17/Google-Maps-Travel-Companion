@@ -97,6 +97,7 @@ stylers: [
 {
   lightness: '12',
 },
+
 ],
 },
 ];
