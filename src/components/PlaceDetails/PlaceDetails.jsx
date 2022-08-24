@@ -19,13 +19,14 @@ const PlaceDetails=({detail,selected,refProp})=>{
                <Card  elevation={6}>
                    {/*cardMedia for image selfClose tag hase 3 attribute [style/image/title]*/}
                    <CardMedia
-                   style={{height:350}}
+                   style={{height:260}}
                    image={
                        detail?.photo?
                        detail?.photo?.images?.large?.url
                        :
                        'https://www.foodserviceandhospitality.com/wp-content/uploads/2016/09/Restaurant-Placeholder-001.jpg'
-                    
+                        
+                        
                     }
                    title={detail?.name}
                    />
